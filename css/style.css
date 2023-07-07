@@ -299,7 +299,7 @@ body {
   html {
     font-size: 62.5%;
   }
-  #menu {
+  #hamburger-menu {
     display: inline-block;
   }
   .navbar .navbar-nav {
@@ -358,7 +358,7 @@ body {
   html {
     font-size: 55%;
   }
-  #menu {
+  #hamburger-menu {
     display: inline-block;
   }
   .navbar .navbar-nav {

@@ -2,13 +2,13 @@
 
 const navbarNav = document.querySelector(".navbar-nav");
 
-document.querySelector("#menu").onclick = () => {
+document.querySelector("#hamburger-menu").onclick = () => {
   navbarNav.classList.toggle("active");
 };
 
 // Klik Outside Sidebar
 
-const menu = document.querySelector("#menu");
+const menu = document.querySelector("#hamburger-menu");
 
 document.addEventListener("click", function (e) {
   if (!menu.contains(e.target) && !navbarNav.contains(e.target)) {
